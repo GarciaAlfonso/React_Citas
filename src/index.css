@@ -1,18 +1,30 @@
 html {
   min-height: 100%;
 }
+
+.contenedor {
+  
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  border: 3px solid #e1e1e1;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: linear-gradient(-270deg, rgb(45, 70, 185) 0%, rgb(40, 121, 141) 52%, rgb(28, 168, 168) 100%);
+  /* background-image: linear-gradient(-270deg, rgb(45, 70, 185) 0%, rgb(40, 121, 141) 52%, rgb(28, 168, 168) 100%); */
+  background-image: url("./img/background.gif");
   min-height: 100%;
   padding-bottom: 5rem;
 }
 h1, h2  {
-  color: white;
+  color: black;
   padding: 3rem 0;
   text-align: center;
+  
 
   text-transform: uppercase;
 
@@ -38,7 +50,7 @@ h1, h2  {
 }
 
 label {
-  color: white;
+  color: black;
 }
 
 input[type="date"],
@@ -54,9 +66,11 @@ input[type="time"] {
 
 .cita {
   padding: 2rem;
-  background: white;
-  border-bottom: 1px solid #e1e1e1;
+  background-color: white;
+  border: 1px solid #e1e1e1;
   color: black;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .cita p {
@@ -77,7 +91,7 @@ input[type="time"] {
 }
 .button.eliminar,
 .button.eliminar:hover {
-  background-color: #c10059;
+  background-color: #ff0000;
   color: white;
   margin-top: 2rem;
 }
